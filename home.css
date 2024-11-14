@@ -1,0 +1,28 @@
+#beranda {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    color: #fff;
+    min-height: 100vh; 
+}
+
+#beranda h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#beranda p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 1rem;
+    border-radius: 8px;
+}

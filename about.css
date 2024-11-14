@@ -1,0 +1,29 @@
+#about {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('ag.jpg'); /* Ganti dengan gambar latar Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+}
+
+#about h1, #about h2, #about p, #about ul {
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team {
+    margin-top: 3rem;
+}
+
+.team-member img {
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* Bayangan terang agar menonjol di latar gelap */
+}
